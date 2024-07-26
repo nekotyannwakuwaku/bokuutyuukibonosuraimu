@@ -142,13 +142,12 @@ body {
     position: fixed;
     top: 70vh;
     left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    transition: width 0.1s;
+    transform: translate(-50%, -50%);
+    transition: width 0.1s, transform 0.1s;
     z-index: 2;
-    animation: bounce 2s infinite;
     user-select: none;
 }
+
 
 
 
@@ -329,7 +328,6 @@ body {
         /* 水平方向および垂直方向の中央に移動 */
         transition: width 0.1s;
         z-index: 2;
-        animation: bounce 2s infinite;
         user-select: none;
     }
 
